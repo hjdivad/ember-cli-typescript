@@ -10,7 +10,7 @@ export default command({
   name: 'ts:precompile',
   works: 'insideProject',
   description:
-    'Generates JS and declaration files from TypeScript sources in preparation for publishing.',
+    'Generates Declaration files from TypeScript sources in preparation for publishing.',
 
   availableOptions: [{ name: 'manifest-path', type: String, default: PRECOMPILE_MANIFEST }],
 
